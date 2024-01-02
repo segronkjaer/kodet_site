@@ -47,18 +47,22 @@ p {
     margin-top: 5rem;
     margin-left: 5rem;
     object-fit: cover;
+    gap: 60px;
 }
 
+/*
 .link_om {
     text-align: center;
     font-family: 'Almarai', sans-serif;
     color: rgba(0, 0, 0, 0.806);
     margin-top: 2rem;
 }
+*/
   
 a {
     color: rgba(0, 0, 0, 0.806);
     font-family: 'Almarai', sans-serif;
+    margin-top: 2rem;
 }
 
 
