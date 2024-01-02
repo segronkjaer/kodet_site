@@ -67,6 +67,17 @@ p {
 }
 }
 
+/* OM */
+.grid_om {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    object-fit: cover;
+    gap: 90px;
+    margin-bottom: 10rem;
+}
+
 /*
 .link_om {
     text-align: center;
