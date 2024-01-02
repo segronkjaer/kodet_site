@@ -38,6 +38,7 @@ p {
     margin-bottom: 1rem;
 }
 
+@media (min-width: 800px) {
 /* FORSIDE */
 .grid_1 {
     display: grid;
@@ -62,7 +63,8 @@ p {
     margin-left: 5rem;
     object-fit: cover;
     gap: 90px;
-    margin-bottom: 30rem;
+    margin-bottom: 15rem;
+}
 }
 
 /*
