@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block; 
+    object-fit: cover;
+}
+
+/* STYLING AF FONTE */
+h1 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 8.5rem;
+}
+
+h2 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 4.6rem;
+    word-spacing: 100px;
+}
+
+h3 {
+    font-family: 'PT Mono', monospace;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Almarai', sans-serif;
+    text-align: justify;
+}
+
+/* FORSIDE */
+.grid_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 13rem;
+    margin-left: 2rem;
+}
+
+.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    object-fit: cover;
+}
+
+.link_om {
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+    color: rgba(0, 0, 0, 0.806);
+    margin-top: 2rem;
+}
+  
+a {
+    color: rgba(0, 0, 0, 0.806);
+    font-family: 'Almarai', sans-serif;
+}
+
+
+
