@@ -43,6 +43,10 @@ p {
     margin-bottom: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (min-width: 800px) {
 /* FORSIDE */
 .grid_1 {
