@@ -39,7 +39,7 @@ p {
 }
 
 .projekter {
-    margin-left: 5rem;
+    margin-left: 10rem;
     margin-bottom: 1rem;
 }
 
@@ -65,9 +65,9 @@ p {
 .grid_3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 5rem;
+    margin-left: 10rem;
     object-fit: cover;
-    gap: 90px;
+    gap: 250px;
     margin-bottom: 15rem;
 }
 
