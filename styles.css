@@ -126,7 +126,14 @@ a {
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     margin-left: 5rem;
-    object-fit: cover;
+    gap: 90px;
+    margin-bottom: 10rem;
+}
+
+.grid_om_tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5rem;
     gap: 90px;
     margin-bottom: 10rem;
 }
