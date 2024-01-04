@@ -28,6 +28,11 @@ h3 {
     font-size: 1.2rem;
 }
 
+h4 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 4rem;
+}
+
 p {
     font-family: 'Almarai', sans-serif;
     text-align: justify;
@@ -64,6 +69,9 @@ p {
     object-fit: cover;
     gap: 90px;
     margin-bottom: 15rem;
+}
+
+.projekter {
 }
 }
 
