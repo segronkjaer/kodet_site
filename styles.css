@@ -44,7 +44,7 @@ p {
     text-align: justify;
 }
 
-.projekter {
+.h4_overskrift {
     margin-left: 10rem;
     margin-bottom: 1rem;
 }
@@ -135,7 +135,16 @@ a {
     grid-template-columns: 1fr 1fr;
     margin-left: 5rem;
     gap: 90px;
+    margin-bottom: 5rem;
+}
+
+.grid_billede {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5rem;
     margin-bottom: 10rem;
+    align-items: center;
+    gap: 100px;
 }
 
 /*
