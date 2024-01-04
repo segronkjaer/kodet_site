@@ -71,8 +71,13 @@ p {
     margin-bottom: 15rem;
 }
 
-.projekter {
-}
+/* PROJEKTER */
+.projekter_tekst {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 15rem;
 }
 
 /* OM */
@@ -100,6 +105,7 @@ a {
     font-family: 'Almarai', sans-serif;
     margin-top: 2rem;
 }
+}
 
 /* FOOTER */
 .footer_grid {
@@ -114,6 +120,4 @@ a {
     word-spacing: 30px;
     text-decoration: none; /* Hvorfor virker dette ikke?*/
 }
-
-
 
