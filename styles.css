@@ -71,6 +71,10 @@ p {
     margin-bottom: 15rem;
 }
 
+.projekter3 {
+    text-decoration: none;
+}
+
 /* PROJEKTER */
 .projekter_tekst {
     display: grid;
