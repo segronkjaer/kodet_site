@@ -124,7 +124,7 @@ a {
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     margin-left: 5rem;
-    gap: 90px;
+    gap: 175px;
     margin-bottom: 10rem;
 }
 
@@ -140,7 +140,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
     align-items: center;
     gap: 100px;
 }
