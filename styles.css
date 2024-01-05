@@ -180,7 +180,7 @@ a {
 }
 
 /* TEMA 2 - WEB */
-.tema2_overskrift {
+.tema_overskrift {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
