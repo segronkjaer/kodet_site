@@ -147,7 +147,6 @@ a {
 .grid_billede {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*margin-left: 5rem;*/
     margin-bottom: 8rem;
     align-items: center;
     gap: 175px;
@@ -180,7 +179,7 @@ a {
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     margin-left: 10rem;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 
 
