@@ -124,8 +124,12 @@ a {
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     margin-left: 5rem;
-    gap: 175px;
+    gap: 150px;
     margin-bottom: 10rem;
+}
+
+.selvportraet2 {
+    width: 60%;
 }
 
 .grid_om_tekst {
