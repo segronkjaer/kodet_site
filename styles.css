@@ -213,7 +213,6 @@ a {
     margin-left: 10rem;
     margin-right: 10rem;
     gap: 20px;
-    margin-bottom: 15rem;
 }
 
 /* TEMA 3 - UX/UI */
@@ -229,6 +228,7 @@ a {
     margin-left: 5rem;
     margin-bottom: 3rem;
     gap: 40rem;
+    margin-top: 15rem;
 }
 
 .footer_menu {
