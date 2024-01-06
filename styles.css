@@ -212,11 +212,17 @@ a {
     margin-top: 3rem;
     margin-left: 10rem;
     margin-right: 10rem;
-    gap: 20px;
+    gap: 80px;
 }
 
 /* TEMA 3 - UX/UI */
 .billeder {
+    width: 75%;
+}
+
+/* TEMA 4 - ANIMATION */
+.mindre_billede {
+    object-fit: scale-down;
     width: 75%;
 }
 
