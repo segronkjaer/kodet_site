@@ -55,9 +55,6 @@ p {
     margin-bottom: 1rem;
 }
 
-a {
-    text-decoration: none;
-}
 
 @media (min-width: 800px) {
 /* FORSIDE */
@@ -85,9 +82,10 @@ a {
     object-fit: cover;
     gap: 100px;
     margin-bottom: 15rem;
+    text-decoration: none;
 }
 
-.projekter3 {
+.no_underline {
     text-decoration: none;
 }
 
