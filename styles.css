@@ -10,6 +10,10 @@ img {
     object-fit: cover;
 }
 
+.border {
+    border: 3px solid #e2e2e2;
+}
+
 /* STYLING AF FONTE */
 h1 {
     font-family: 'Almarai', sans-serif;
