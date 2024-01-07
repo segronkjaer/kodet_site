@@ -11,6 +11,7 @@ img {
     object-fit: cover;
 }
 
+/* Ramme om billeder */
 .border {
     border: 2px solid #e2e2e2;
 }
@@ -186,7 +187,6 @@ a {
     font-family: 'Almarai', sans-serif;
     margin-top: 2rem;
 }
-}
 
 /* TEMA 2 - WEB */
 .tema_overskrift {
@@ -230,7 +230,7 @@ a {
 .mindre_billede2 {
     width: 98%;
 }
-
+}
 
 /* FOOTER */
 .footer_grid {
@@ -246,6 +246,48 @@ a {
     word-spacing: 30px;
 }
 
+/* PLADS IMELLEM ELEMENTER I MOBIL */
 @media (max-width: 800px) {
 
+/* FORSIDE */
+h1 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+p, a {
+    margin: 1rem;
+    font-family: 'Almarai', sans-serif;
+    color: black;
+}
+
+/* FOOTER */
+h5 {
+    font-family: 'PT Mono', monospace;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+}
+
+/*
+.footer_menu {
+    text-decoration: none;
+}
+*/
 }
