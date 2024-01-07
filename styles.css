@@ -246,7 +246,7 @@ a {
     word-spacing: 30px;
 }
 
-/* PLADS IMELLEM ELEMENTER I MOBIL */
+/* MOBIL */
 @media (max-width: 800px) {
 
 /* FORSIDE */
@@ -285,9 +285,7 @@ h5 {
     margin-top: 10rem;
 }
 
-/*
-.footer_menu {
+.no_underline {
     text-decoration: none;
 }
-*/
 }
