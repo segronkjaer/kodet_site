@@ -262,7 +262,7 @@ a {
 /* MOBIL */
 @media (max-width: 800px) {
 
-/* FORSIDE */
+/* TEKST */
 h1 {
     font-size: 5rem;
     display: flex;
@@ -275,10 +275,65 @@ h2 {
     justify-content: center;
 }
 
-p, a {
+h3 {
+    margin-top: 50px;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h6 {
+    margin-left: 1rem;
+}
+
+.h4_overskrift, .h4_overskrift2 {
+    margin-left: 1rem;
+}
+
+a {
     margin: 1rem;
     font-family: 'Almarai', sans-serif;
     color: black;
+}
+
+p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Almarai', sans-serif;
+    color: black;
+}
+
+/* FORSIDE */
+.grid_2 {
+    margin-top: 5rem;
+}
+
+.selvportraet1 {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.projekter2 {
+    margin-bottom: 3rem;
+}
+
+/* OM */
+.selvportraet2 {
+    width: 60%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.h4_overskrift {
+    margin-top: 5rem;
+}
+
+.grid_billede {
+    margin-top: 2rem;
 }
 
 /* FOOTER */
@@ -300,8 +355,9 @@ h5 {
 }
 
 .navn {
-    grid-column: 3 / span 1;
+    grid-column: 2 / span 2;
     grid-row: 1 / span 1;
+    margin-left: 80px;
 }
 
 .no_underline {
@@ -310,5 +366,6 @@ h5 {
 
 ul {
     list-style: none;
+    margin-left: -30px;
 }
 }
