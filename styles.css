@@ -14,6 +14,7 @@ img {
 /* Ramme om billeder */
 .border {
     border: 2px solid #e2e2e2;
+    opacity: 0.60;
 }
 
 .border1 {
