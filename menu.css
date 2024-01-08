@@ -29,7 +29,7 @@ header {
   .menu a {
     display: block;
     padding: 10px;
-    color: #000000;
+    color: #bb0c0c;
     font-family: 'Almarai', sans-serif;
     text-decoration: none;
     transition: color 0.3s;
@@ -44,7 +44,7 @@ header {
   .burger .line {
     width: 100%;
     height: 2px;
-    background-color: #fdfdfddf;
+    background-color: #951414df;
     margin-bottom: 5px;
     transition: 0.2s linear;
   }
@@ -53,7 +53,7 @@ header {
     display: none;
   }
 
-  @media screen (max-width: 800px) {
+  @media screen and (max-width: 800px) {
     .menu {
       display: none;
     }
@@ -62,6 +62,43 @@ header {
       display: block;
     }
 
+    .burger.active .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+        transition: 0.2s linear;
+    }
+    
+    .burger.active .line:nth-child(2) {
+        opacity: 0;
+        transition: 0.15s linear;
+    }
+    
+    .burger.active .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+        transition: 0.2s linear;
+    }
+    
+    nav.active .menu {
+        display: block;
+        background-color: #1E1E1E;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+    
+    nav.active .menu li {
+        margin: 10px 20px;
+    }
+    
+    nav.active .menu a {
+        font-size: 24px;
+    }
+}
+
+
+/*
     .burger.active .line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
       transition: 0.2s linear;
@@ -96,3 +133,4 @@ header {
       font-size: 24px;
     }
   }
+  */
