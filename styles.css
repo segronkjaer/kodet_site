@@ -16,6 +16,11 @@ img {
     border: 2px solid #e2e2e2;
 }
 
+.border1 {
+    border: 2px solid #e2e2e2;
+    margin-bottom: 1rem;
+}
+
 /* STYLING AF FONTE */
 h1 {
     font-family: 'Almarai', sans-serif;
@@ -228,19 +233,26 @@ a {
     gap: 80px;
 }
 
+.mindre_billede1 {
+    object-fit: scale-down;
+    width: 75%;
+    translate: 0px -90px;
+}
+
 /* TEMA 3 - UX/UI */
 .billeder {
     width: 75%;
 }
 
 /* TEMA 4 - ANIMATION */
-.mindre_billede {
+.mindre_billede2 {
     object-fit: scale-down;
-    width: 75%;
+    width: 73.5%;
+    translate: 0px -140px;
 }
 
 /* TEMA 5 - INDHOLD */
-.mindre_billede2 {
+.mindre_billede3 {
     width: 98%;
 }
 }
@@ -316,12 +328,12 @@ p {
 }
 
 /* 04 ANIMATION */
-.mindre_billede {
+.mindre_billede2 {
     margin-top: 1rem;
 }
 
 /* 05 INDHOLD */
-.mindre_billede2 {
+.mindre_billede3 {
     width: 60%;
     margin-left: 6rem;
     margin-bottom: 2rem;
