@@ -287,6 +287,7 @@ h4 {
 
 h6 {
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .h4_overskrift, .h4_overskrift2 {
@@ -304,6 +305,10 @@ p {
     margin-right: 1rem;
     font-family: 'Almarai', sans-serif;
     color: black;
+}
+
+.tekst_afstand {
+    margin-bottom: 2rem;
 }
 
 /* FORSIDE */
@@ -332,8 +337,17 @@ p {
     margin-top: 5rem;
 }
 
-.grid_billede {
-    margin-top: 2rem;
+.om_tekst {
+    margin-bottom: 5rem;
+}
+
+.billedeafskaerm2 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.kontakt_tekst {
+    margin-bottom: 2rem;
 }
 
 /* FOOTER */
