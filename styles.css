@@ -311,6 +311,22 @@ p {
     margin-bottom: 2rem;
 }
 
+.proces_tekst {
+    margin-top: 2rem;
+}
+
+/* 04 ANIMATION */
+.mindre_billede {
+    margin-top: 1rem;
+}
+
+/* 05 INDHOLD */
+.mindre_billede2 {
+    width: 60%;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
 /* FORSIDE */
 .grid_2 {
     margin-top: 5rem;
