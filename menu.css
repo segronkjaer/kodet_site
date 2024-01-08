@@ -53,13 +53,15 @@ header {
     display: none;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen (max-width: 800px) {
     .menu {
       display: none;
     }
+
     .burger {
       display: block;
     }
+
     .burger.active .line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
       transition: 0.2s linear;
