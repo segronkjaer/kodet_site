@@ -120,12 +120,12 @@ p {
     grid-template-columns: 1fr;
     margin-top: 5rem;
     margin-left: 10rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 
 .h3 {
     margin-left: 10rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.2rem;
 }
 
 .grid_web, .grid_uxui, .grid_animation {
@@ -192,7 +192,7 @@ p {
 
 .wordspacing {
     word-spacing: 5px;
-    font-weight:900;
+    font-weight: 900;
 }
   
 a {
