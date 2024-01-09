@@ -12,14 +12,19 @@ img {
 }
 
 /* Ramme om billeder */
-.border {
-    border: 2px solid #e2e2e2;
-    opacity: 0.60;
-}
-
 .border1 {
     border: 2px solid #e2e2e2;
     margin-bottom: 1rem;
+}
+
+.border {
+    border: 2px solid #e2e2e2;
+    opacity: 1;
+}
+
+/* Hover-effekt på billeder */
+.border:hover {
+    opacity: 0.50;
 }
 
 /* STYLING AF FONTE */
