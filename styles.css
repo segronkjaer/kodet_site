@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    /*scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
 }
 
 img {
@@ -242,7 +242,7 @@ a {
 .mindre_billede1 {
     object-fit: scale-down;
     width: 75%;
-    translate: 0px -90px;
+    translate: 0px -210px;
 }
 
 /* TEMA 3 - UX/UI */
@@ -254,7 +254,7 @@ a {
 .mindre_billede2 {
     object-fit: scale-down;
     width: 73.5%;
-    translate: 0px -140px;
+    translate: 0px -180px;
 }
 
 /* TEMA 5 - INDHOLD */
